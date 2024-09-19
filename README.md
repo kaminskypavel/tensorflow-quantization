@@ -1,5 +1,19 @@
 # Qunatization of Neural Networks
 
+![graph](docs/image.png)
+
+## Introduction
+
+> python evaluate-quantized.py
+
+Quantized Model Accuracy: **98.93%**
+
+>python evaluate-non-quantized.py
+
+Original Model Accuracy: **98.94%**
+
+🤯🤯🤯
+
 ## Setup
 
 ```bash
@@ -28,6 +42,8 @@ python test_quantized_model.py
 ```bash
 tensorboard --logdir logs
 ```
+
+open <http://localhost:6006/> in your browser
 
 ## Evaluate the model
 
