@@ -1,0 +1,4 @@
+.mypy_cache
+logs
+models/**
+!models/.gitkeep
