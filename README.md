@@ -1,5 +1,7 @@
 # Qunatization of Neural Networks
 
+## Setup
+
 ```bash
 conda create --name tf_quantization python=3.12
 

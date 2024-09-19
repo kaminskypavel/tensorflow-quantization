@@ -51,7 +51,7 @@ model.fit(
 )
 
 # Save the model
-MODELNAME = f"models/nist_cnn_model-epochs.h5"
+MODELNAME = f"models/mnist_cnn_model-epochs.h5"
 model.save(MODELNAME)
 
 print(f"Model trained and saved as '{MODELNAME}'.")
